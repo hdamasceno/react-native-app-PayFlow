@@ -1,8 +1,10 @@
+import 'intl';
+import 'intl/locale-data/jsonp/pt-BR';
 import React from 'react';
-import {HomeScreen} from './src/screens/HomeScreen';
+import {SplashScreen} from './src/screens/SplashScreen';
 
 const App = () => {
-    return <HomeScreen />;
+    return <SplashScreen />;
 };
 
 export default App;
