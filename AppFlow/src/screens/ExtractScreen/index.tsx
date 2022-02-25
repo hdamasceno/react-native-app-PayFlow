@@ -65,7 +65,7 @@ export function ExtractScreen() {
             <Header />
             <TitleContainer>
                 <Title>Meus extratos</Title>
-                <TitleBillAmount>3 pagos</TitleBillAmount>
+                <TitleBillAmount>{lista?.length} pagos</TitleBillAmount>
             </TitleContainer>
             <LineSeparatorContainer>
                 <LineSeparatorImage
