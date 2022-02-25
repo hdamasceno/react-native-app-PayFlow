@@ -9,6 +9,11 @@ export default {
         red: '#EB4335',
         background: '#FAFAFC',
         primary: '#FBBC05',
+
+        textHeading: '#585666',
+
+        confirmationButton: '#FF941A',
+        cancelButtonTitle: '#666666',
     },
     fonts: {
         Roboto: 'Roboto',
