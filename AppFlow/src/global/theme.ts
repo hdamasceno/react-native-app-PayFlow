@@ -9,6 +9,9 @@ export default {
         red: '#EB4335',
         background: '#FAFAFC',
         primary: '#FBBC05',
+
+        textHeading: '#585666',
+        brandSecondary: '#585666',
     },
     fonts: {
         Roboto: 'Roboto',
