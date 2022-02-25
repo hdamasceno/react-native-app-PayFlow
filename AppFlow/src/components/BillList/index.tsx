@@ -1,11 +1,7 @@
 import React from 'react';
-
-export interface BillProps {
-    id: string;
-    title: string;
-    description: string;
-    amount: number;
-}
+import {FlatList} from 'react-native';
+import {BillProps} from '../../models/Bill.model';
+import {Item} from './Item';
 
 interface Props {
     list: BillProps[];
@@ -16,5 +12,14 @@ interface Props {
 import {Container} from './styles';
 
 export function BillList({list}: Props) {
-    return <Container />;
+    return (
+        <Container>
+            <FlatList
+                data={list}
+                showsVerticalScrollIndicator={false}
+                keyExtractor={item => item.id}
+                renderItem={({item}) => <Item item={item} />}
+            />
+        </Container>
+    );
 }
