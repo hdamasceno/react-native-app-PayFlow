@@ -11,9 +11,11 @@ export default {
         primary: '#FBBC05',
 
         textHeading: '#585666',
-
+      
         confirmationButton: '#FF941A',
         cancelButtonTitle: '#666666',
+
+        brandSecondary: '#585666',
     },
     fonts: {
         Roboto: 'Roboto',
