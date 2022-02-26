@@ -40,3 +40,9 @@ export const HeaderTitleMessage = styled.Text`
 `;
 
 export const HeaderUserAvatarContainer = styled.View``;
+
+export const HeaderUserAvatarImage = styled(Image)`
+    width: ${RFValue(48)}px;
+    height: ${RFValue(48)}px;
+    border-radius: ${RFValue(5)}px;
+`;

@@ -1,5 +1,4 @@
 import React from 'react';
-import {Image} from 'react-native';
 
 import {
     Container,
@@ -9,6 +8,7 @@ import {
     HeaderTitle,
     HeaderTitleMessage,
     HeaderUserAvatarContainer,
+    HeaderUserAvatarImage,
 } from './styles';
 
 export function Header() {
@@ -25,8 +25,8 @@ export function Header() {
                     </HeaderTitleMessage>
                 </HeaderTitleContainer>
                 <HeaderUserAvatarContainer>
-                    <Image
-                        source={require('../../assets/images/headerComponent/userAvatar.png')}
+                    <HeaderUserAvatarImage
+                        source={require('../../assets/images/henryAvatar.jpeg')}
                     />
                 </HeaderUserAvatarContainer>
             </HeaderContainer>
